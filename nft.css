@@ -1,4 +1,4 @@
-,image{
+.image{
     background-image: url('https://ritzherald.com/wp-content/uploads/2021/11/Tainsei-NFT-Collection-Japanese-Art-meets-Ethereum-900x425.jpg');
     background-size: 300px 400px;
     background-color: white;
@@ -8,4 +8,16 @@
     display: inline-block;
     position: absolute;
     border-radius: 15px 15px 200px 200px;
+}
+#left, #right{
+    display: inline-block;
+    width: 146px;
+    height: 500px;
+    background-color: #db6e14;
+}
+#left{
+    border-radius: 15px 0px 0px 15px;
+}
+#right{
+    border-radius: 15px 15px 15px 0px;
 }
